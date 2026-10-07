@@ -1,0 +1,16 @@
+{
+  "name": "saucedemo-qa-ai-assessment",
+  "version": "1.0.0",
+  "description": "SQA Engineer Practical QA & AI Assessment - SauceDemo",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:checkout": "playwright test tests/checkout.spec.ts",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "typescript": "^5.7.2"
+  }
+}
